@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Q-Vision3 QV mark">
+  <rect width="256" height="256" rx="64" fill="#151822"/>
+  <circle cx="114" cy="112" r="58" fill="none" stroke="#C4B5FD" stroke-width="22"/>
+  <path d="M143 136l41 41" stroke="#C4B5FD" stroke-width="22" stroke-linecap="round"/>
+  <path d="M145 92l31 76 32-76" fill="none" stroke="#C5F57C" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
