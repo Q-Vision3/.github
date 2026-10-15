@@ -22,6 +22,7 @@
 | Что нужно | Точка входа |
 | :--- | :--- |
 | **Работать над приложением Eoqul** | [eoqul](https://github.com/Q-Vision3/eoqul) — основной клиент |
+| **Работать над веб-частью Eoqul** | [eoqul-web](https://github.com/Q-Vision3/eoqul-web) — единое веб-приложение, сейчас с консолью суперадмина |
 | **Найти веб-приложения и сервисы** | [Раздел Eoqul ↓](#eoqul) — фронтенды, backend и связанные сервисы |
 | **Собрать прошивку планшета** | [hanvon-firmware](https://github.com/Q-Vision3/hanvon-firmware) — общий workspace, команды сборки и документация |
 | **Подготовить и доставить обновление** | [hanvon-ota-tool](https://github.com/Q-Vision3/hanvon-ota-tool) → [hanvon-ota-builder](https://github.com/Q-Vision3/hanvon-ota-builder) → [hanvon-ota-server](https://github.com/Q-Vision3/hanvon-ota-server) |
@@ -33,12 +34,15 @@
 | Репозиторий | Назначение |
 | :--- | :--- |
 | **[eoqul](https://github.com/Q-Vision3/eoqul)** | Основное приложение · Flutter / Android |
-| [eoqul-backend](https://github.com/Q-Vision3/eoqul-backend) | Backend |
-| [eoqul-admin-web](https://github.com/Q-Vision3/eoqul-admin-web) | Веб-панель администрирования |
-| [eoqul-messanger-web](https://github.com/Q-Vision3/eoqul-messanger-web) | Веб-мессенджер |
+| **[eoqul-web](https://github.com/Q-Vision3/eoqul-web)** | Единое веб-приложение E-OQULYQ · React / Vite. Сейчас в нём консоль суперадмина (замена Directus Studio для команды), остальные веб-роли появятся позже. Работает с backend из `eoqul-backend`, боевой адрес — `app.eoqulyq.kz` |
+| [eoqul-backend](https://github.com/Q-Vision3/eoqul-backend) | Backend (Directus) |
+| [eoqul-admin-web](https://github.com/Q-Vision3/eoqul-admin-web) | ⚠️ **Устарел (deprecated).** Веб-панель администрирования. Новая разработка ведётся в [eoqul-web](https://github.com/Q-Vision3/eoqul-web), смотрите его |
+| [eoqul-messanger-web](https://github.com/Q-Vision3/eoqul-messanger-web) | Веб-мессенджер. В будущем будет перенесён в [eoqul-web](https://github.com/Q-Vision3/eoqul-web) |
 | [eoqul-bilim](https://github.com/Q-Vision3/eoqul-bilim) | Веб-проект Bilim |
 | [eoqul-live-viewer](https://github.com/Q-Vision3/eoqul-live-viewer) | Просмотр потока рисования Eoqul в браузере |
 | [eoqul-discovery-pilot](https://github.com/Q-Vision3/eoqul-discovery-pilot) | Обнаружение устройств и ретрансляция потоков |
+
+> **Куда смотреть по вебу.** [eoqul-web](https://github.com/Q-Vision3/eoqul-web) — единая точка для всех веб-ролей Eoqul. Функции `eoqul-admin-web` уже заменяются им, а `eoqul-messanger-web` переедет туда позже.
 
 ## Hanvon BW
 
